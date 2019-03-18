@@ -18,7 +18,7 @@
 package cn.ict.zyq.bestConf.cluster.InterfaceImpl;
 
 import cn.ict.zyq.bestConf.cluster.Interface.ConfigWrite;
-
+import java.util.HashMap;
 
 public class HadoopConfigWrite implements ConfigWrite {
 
@@ -33,7 +33,7 @@ public class HadoopConfigWrite implements ConfigWrite {
 	}
 	
 	@Override
-	void uploadConfigFile(){
+	public void uploadConfigFile(){
 		
 	}
 	
