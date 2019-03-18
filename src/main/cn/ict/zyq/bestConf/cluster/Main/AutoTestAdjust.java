@@ -173,7 +173,7 @@ public class AutoTestAdjust implements ClusterManager{
 	
 	private static int maxTry = 3;
     public boolean startTest(HashMap hmTarget, int num, boolean isInterrupt) {
-		
+		return true;
 	}
     private double[] getPerf(String filePath){
     	double[] result = new double[2];
